@@ -6,7 +6,9 @@
 using namespace std;
 
 /**
-    Time complexity of the algorithm: O(n)
+    Time complexity of the algorithm: 
+    Average case O(n)
+    Worst case: O(k*m), where k - s1.size(), m - s2.size()
 */
 string find_unique(const string& s1, const string& s2) {
 	string res("");
