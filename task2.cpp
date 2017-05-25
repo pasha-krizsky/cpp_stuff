@@ -8,7 +8,7 @@ using namespace std;
 /**
     Time complexity of the algorithm: O(n)
 */
-string find_unique_set(const string& s1, const string& s2) {
+string find_unique(const string& s1, const string& s2) {
 	string res("");
 	unordered_set<char> unique_set1;
 	unordered_set<char> unique_set2;
@@ -38,7 +38,7 @@ int main() {
 	string s2;
 
 	cin >> s1 >> s2;
-	cout << find_unique_set(s1, s2) << endl;
+	cout << find_unique(s1, s2) << endl;
 
 	system("pause");
 	return 0;
